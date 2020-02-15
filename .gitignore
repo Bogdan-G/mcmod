@@ -10,3 +10,5 @@ CodecIBXM.java
 *.jar
 *.war
 *.ear
+.gradle
+build

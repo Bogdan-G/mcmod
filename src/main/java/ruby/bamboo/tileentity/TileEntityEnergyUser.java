@@ -10,10 +10,10 @@ import cpw.mods.fml.common.Optional.Method;
 
 @InterfaceList({ @Interface(iface = "cofh.api.energy.IEnergyHandler",
         modid = "CoFHAPI"), @Interface(
-        iface = "shift.sextiarysector.api.machine.energy.IEnergyHandler",
+        iface = "shift.sextiarysector.api.gearforce.tileentity.IEnergyHandler",
         modid = "SextiarySector") })
 public abstract class TileEntityEnergyUser extends TileEntity implements
-        IEnergyHandler, shift.sextiarysector.api.machine.energy.IEnergyHandler {
+        IEnergyHandler, shift.sextiarysector.api.gearforce.tileentity.IEnergyHandler {
     //RF基準
     int innerEnerygy = 0;
 
